@@ -89,11 +89,11 @@ while True:
                                     equipos[i][6] += marcadorvisitante
                                     equipos[i][7] += 1
                                     if marcadorlocal > marcadorvisitante:
-                                         equipos[i][2] += 1
+                                        equipos[i][2] += 1
                                     elif marcadorlocal < marcadorvisitante:
-                                         equipos[i][3] += 1
+                                        equipos[i][3] += 1
                                     elif marcadorlocal == marcadorvisitante:
-                                         equipos[i][4] +=1
+                                        equipos[i][4] +=1
 
                                 elif v in item:
                                     equipos[i][1] +=1
@@ -101,11 +101,11 @@ while True:
                                     equipos[i][6] += marcadorlocal
                                     equipos[i][7] += 1
                                 if marcadorlocal < marcadorvisitante:
-                                         equipos[i][2] += 1
+                                        equipos[i][2] += 1
                                 elif marcadorlocal > marcadorvisitante:
-                                         equipos[i][3] += 1
+                                        equipos[i][3] += 1
                                 elif marcadorlocal == marcadorvisitante:
-                                         equipos[i][4] +=1
+                                        equipos[i][4] +=1
                                 
     elif op == 3:
         tabla_de_puntajes = print("Reporte FCF")
